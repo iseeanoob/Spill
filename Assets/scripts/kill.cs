@@ -13,7 +13,7 @@ public class  Killer_cube: MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Respawn);
+            SceneManager.LoadScene("level 1");
         }
     }
 }
